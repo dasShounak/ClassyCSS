@@ -1,0 +1,40 @@
+.is-marginless {
+	margin: 0 !important;
+}
+
+.is-paddingless {
+	padding: 0 !important;
+}
+
+$spacing: ('margin':'m','padding':'p') !default;
+$spacing-directions: ('left':'l', 'right':'r', 'top':'t', 'bottom':'b') !default;
+$spacing-horizontal: 'x' !default;
+$spacing-vertical: 'y' !default;
+$spacing-value: ('0':0rem, '1':0.25rem, '2':0.5rem, '3':0.75rem, '4':1rem, '5':1.5rem, '6':2rem, '7':2.5rem, '8':3rem) !default;
+
+@each $type, $spacing-shortcut in $spacing {
+	@each $size, $value in $spacing-value {
+		// Individual direction
+		@each $direction, $shortcut in $spacing-directions {
+			.#{$spacing-shortcut}#{$shortcut}-#{$size} {
+				#{$type}-#{$direction}: $value;
+			}
+		}
+
+		// Horizontal
+		@if $spacing-horizontal != null {
+			.#{$spacing-shortcut}#{$spacing-horizontal}-#{$size} {
+				#{$type}-left: $value;
+				#{$type}-right: $value;
+			}
+		}
+
+		// Vertical
+		@if $spacing-vertical != null {
+			.#{$spacing-shortcut}#{$spacing-vertical}-#{$size} {
+				#{$type}-top: $value;
+				#{$type}-bottom: $value;
+			}
+		}
+	}
+}

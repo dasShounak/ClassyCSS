@@ -1,0 +1,42 @@
+@import "../utilities/variables";
+
+// Weight
+.text {
+	&.is-light { font-weight: $weight-light; }
+	&.is-normal { font-weight: $weight-normal; }
+	&.is-medium { font-weight: $weight-medium; }
+	&.is-semibold { font-weight: $weight-semibold; }
+	&.is-bold { font-weight: $weight-bold; }
+}
+
+// Alignment
+.text {
+	@each $name, $align in $text-align {
+		&.is-#{$name} {
+			text-align: #{$align};
+		}
+	}
+}
+
+// Style
+.text {
+	&.is-capitalized { text-transform: capitalize; }
+	&.is-uppercased { text-transform: uppercase; }
+	&.is-lowercased { text-transform: lowercase; }
+	&.is-italic { font-style: italic; }
+}
+
+// Family
+.text {
+	&.is-sans-serif { font-family: $family-sans-serif; }
+	&.is-monospace { font-family: $family-monospace; }
+}
+
+// Size
+@each $size, $value in $sizes {
+	.text {
+		&.has-#{$size} {
+			font-size: #{$value};
+		}
+	}
+}
