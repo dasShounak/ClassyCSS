@@ -3,4 +3,6 @@ script:
 
 language: sass
 before_install:
-- npm install -g sass
+- gem install sass
+dist: focal
+os: linux
