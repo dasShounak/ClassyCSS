@@ -15,8 +15,15 @@ ClassyCSS is a **CSS framework** which uses only CSS classes to design webpages.
  Do you feel writing thousands of lines of CSS for your website a tedious job? ClassyCSS comes to the rescue!
  * Style webpages by using pre-made _CSS_ classes
  * Customize the looks by importing the _Sass_ source code
+ 
+## Installation
+ClassyCSS is constantly in development. Try it out now!  
+#### NPM
+```sh
+ npm install clsy
+```
 
-## Download
+#### Download
 Click [here](https://github.com/dasShounak/ClassyCSS/archive/master.zip) to get the code.
 
 ## CSS only
