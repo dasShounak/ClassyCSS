@@ -1,6 +1,7 @@
 # ClassyCSS
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dasShounak/ClassyCSS?logo=github&style=flat)
+![Build](https://img.shields.io/badge/build-passing-success)
 ![GitHub license](https://img.shields.io/github/license/dasShounak/ClassyCSS?color=%23&style=flat)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dasShounak/ClassyCSS?style=flat&color=blueviolet)
