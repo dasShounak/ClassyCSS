@@ -11,6 +11,11 @@
 
 ClassyCSS is a **CSS framework** which uses only CSS classes to design webpages.
 
+## Why use ClassyCSS?
+ Do you feel writing thousands of lines of CSS for your website a tedious job? ClassyCSS comes to the rescue!
+ * Style webpages by using pre-made _CSS_ classes
+ * Customize the looks by importing the _Sass_ source code
+
 ## Download
 Click [here](https://github.com/dasShounak/ClassyCSS/archive/master.zip) to get the code.
 
@@ -26,4 +31,32 @@ ClassyCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make m
 * Opera
 * Internet Explorer
 
-![Author](https://img.shields.io/badge/Author-Shounak%20Das-%2318e0b8?style=for-the-badge)
+## Usage
+To use ClassyCSS as it is, link the [classy.css](https://github.com/dasShounak/ClassyCSS/blob/master/css/classy.css) in your html code.
+
+Here's a sample html file for a quick start:  
+```
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Let's use ClassyCSS!</title>
+      <link rel="stylesheet" href="css/classy.css">
+    </head>
+    <body>
+     <div>
+       <h1 class="text is-medium is-sans-serif has-size5">
+         Hello World
+       </h1>
+       <p class="text is-normal has-size6">
+         My first website with <strong>ClassyCSS</strong>!
+       </p>
+     </div>
+    </body>
+  </html>
+```
+
+
+![Author](https://img.shields.io/badge/Author-Shounak%20Das-%2318e0b8?style=for-the-badge)  
+_ClassyCSS is licensed under the MIT License_
