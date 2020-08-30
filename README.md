@@ -26,6 +26,4 @@ ClassyCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make m
 * Opera
 * Internet Explorer
 
-**_ClassyCSS is currently under development. It might contain bugs that can produce errors during compiling. The stable release will be coming soon..._**
-
 ![Author](https://img.shields.io/badge/Author-Shounak%20Das-%2318e0b8?style=for-the-badge)
