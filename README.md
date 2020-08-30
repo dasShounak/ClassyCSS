@@ -57,6 +57,26 @@ Here's a sample html file for a quick start:
   </html>
 ```
 
+If you want to customize the variables, then
+* Create a screen.scss or screen.sass file.
+* Import [classy.scss](https://github.com/dasShounak/ClassyCSS/blob/master/classy.scss).  
+```
+ @import "classy.scss" ;
+```  
+* Change the variables.
+```
+ $red: rgb(255,0,0);
+```
+
+_**Note:** The full documentation is currently under development. It will be completed soon._
+
+
+## Contribute
+* **Issues:** Click [here](https://github.com/dasShounak/ClassyCSS/issues?q=is%3Aissue+is%3Aopen) to create a new issue.
+
+
+## License
+Code copyright 2020 Shounak Das. Licensed under [the MIT License](https://github.com/dasShounak/ClassyCSS/blob/master/LICENSE)  
+
 
 ![Author](https://img.shields.io/badge/Author-Shounak%20Das-%2318e0b8?style=for-the-badge)  
-_ClassyCSS is licensed under the MIT License_
