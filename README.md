@@ -4,6 +4,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dasShounak/ClassyCSS/CI)
 ![GitHub license](https://img.shields.io/github/license/dasShounak/ClassyCSS?color=%23&style=flat)
 ![GitHub Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat)
+![npm](https://img.shields.io/npm/dt/clsy?logo=npm)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dasShounak/ClassyCSS?style=flat&color=blueviolet)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dasShounak/ClassyCSS?style=flat)
 ![GitHub issues](https://img.shields.io/github/issues/dasShounak/ClassyCSS?style=flat)
