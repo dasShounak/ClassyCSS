@@ -1,64 +1,4 @@
-.is-block {
-  display: block;
-}
-
-.is-flex {
-  display: flex;
-}
-
-.is-inline {
-  display: inline;
-}
-
-.is-inline-block {
-  display: inline-block;
-}
-
-.is-inline-flex {
-  display: inline-flex;
-}
-
-.clearfix::after {
-  clear: both;
-  content: " ";
-  display: table;
-}
-
-.is-floated-left {
-  float: left;
-}
-
-.is-floated-right {
-  float: right;
-}
-
-.is-clipped {
-  overflow: hidden !important;
-}
-
-.is-position-relative {
-  position: relative;
-}
-
-.is-position-absolute {
-  position: absolute;
-}
-
-.is-position-fixed {
-  position: fixed;
-}
-
-.is-position-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-/**************************************************
-Thanks to Richard Clark for this amazing work!
-
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-**************************************************/
+/* https://github.com/dasShounak/ClassyCSS */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -152,6 +92,65 @@ hr {
 
 input, select {
   vertical-align: middle;
+}
+
+.is-block {
+  display: block;
+}
+
+.is-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.is-inline {
+  display: inline;
+}
+
+.is-inline-block {
+  display: inline-block;
+}
+
+.is-inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.clearfix::after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.is-floated-left {
+  float: left;
+}
+
+.is-floated-right {
+  float: right;
+}
+
+.is-clipped {
+  overflow: hidden !important;
+}
+
+.is-position-relative {
+  position: relative;
+}
+
+.is-position-absolute {
+  position: absolute;
+}
+
+.is-position-fixed {
+  position: fixed;
+}
+
+.is-position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .is-marginless {
@@ -718,5 +717,3 @@ input, select {
 .text.has-size10 {
   font-size: 0.75rem;
 }
-
-/*# sourceMappingURL=classy.css.map */

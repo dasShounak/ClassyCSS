@@ -1,0 +1,22 @@
+{
+  "name": "clsy",
+  "version": "0.1.0",
+  "description": "ClassyCSS is a CSS framework that helps to reduce the tedious job of writing thousands of lines of css.",
+  "main": "css/classy.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasShounak/ClassyCSS.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "sass",
+    "framework"
+  ],
+  "author": "Shounak Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasShounak/ClassyCSS/issues"
+  },
+  "homepage": "https://github.com/dasShounak/ClassyCSS#readme"
+}
