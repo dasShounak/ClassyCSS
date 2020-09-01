@@ -99,9 +99,6 @@ input, select {
 }
 
 .is-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
 }
 
@@ -114,9 +111,6 @@ input, select {
 }
 
 .is-inline-flex {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: -webkit-inline-flex;
   display: inline-flex;
 }
 
@@ -719,3 +713,5 @@ input, select {
 .text.has-size10 {
   font-size: 0.75rem;
 }
+
+/*# sourceMappingURL=classy.css.map */
