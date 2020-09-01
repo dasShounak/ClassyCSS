@@ -10,7 +10,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/dasShounak/ClassyCSS?style=flat)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/dasShounak/ClassyCSS?style=flat)
 
-ClassyCSS is a **CSS framework** which uses only CSS classes to design webpages.
+ClassyCSS is a free, open source **CSS framework**, created to design webpages only by using pre-defined CSS classes.
 
 ## Why use ClassyCSS?
  Do you feel writing thousands of lines of CSS for your website a tedious job? ClassyCSS comes to the rescue!
