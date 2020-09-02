@@ -80,7 +80,7 @@ _**Note:** The full documentation is currently under development. It will be com
 
 
 ## Contribute
-* **Issues:** Click [here](https://github.com/dasShounak/ClassyCSS/issues?q=is%3Aissue+is%3Aopen) to create a new issue.
+For **Feature requests** and **Bugs**, click [here](https://github.com/dasShounak/ClassyCSS/issues?q=is%3Aissue+is%3Aopen).
 
 
 ## License
