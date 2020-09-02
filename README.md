@@ -2,13 +2,14 @@
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dasShounak/ClassyCSS?logo=github&style=flat-square)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dasShounak/ClassyCSS/CI?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/dasShounak/ClassyCSS?color=%23&style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/dasShounak/ClassyCSS?color=%23&style=flat-square)](LICENSE)
 ![GitHub Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/clsy?logo=npm&style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dasShounak/ClassyCSS?style=flat-square&color=blueviolet)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dasShounak/ClassyCSS?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/dasShounak/ClassyCSS?style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/dasShounak/ClassyCSS?style=flat-square)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=flat-square)](code_of_conduct.md)
 
 ClassyCSS is a free, open source **CSS framework**, created to design webpages only by using pre-defined CSS classes.
 
