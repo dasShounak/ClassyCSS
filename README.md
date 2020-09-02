@@ -43,7 +43,7 @@ ClassyCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make m
 To use ClassyCSS as it is, link the [classy.css](https://github.com/dasShounak/ClassyCSS/blob/master/css/classy.css) in your html code.
 
 Here's a sample html file for a quick start:  
-```html
+```
   <!DOCTYPE html>
   <html>
     <head>
@@ -68,11 +68,11 @@ Here's a sample html file for a quick start:
 If you want to customize the variables, then
 * Create a screen.scss or screen.sass file.
 * Import [classy.scss](https://github.com/dasShounak/ClassyCSS/blob/master/classy.scss).  
-```scss
+```
  @import "classy.scss" ;
 ```  
 * Change the variables.
-```scss
+```
  $red: rgb(255,0,0);
 ```
 
