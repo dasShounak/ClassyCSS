@@ -9,7 +9,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dasShounak/ClassyCSS?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/dasShounak/ClassyCSS?style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/dasShounak/ClassyCSS?style=flat-square)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=flat-square)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)
 
 ClassyCSS is a free, open source **CSS framework**, created to design webpages only by using pre-defined CSS classes.
 
