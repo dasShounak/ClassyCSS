@@ -84,7 +84,7 @@ _**Note:** The full documentation is currently under development. It will be com
 
 
 ## License
-Code copyright 2020 Shounak Das. Licensed under [the MIT License](https://github.com/dasShounak/ClassyCSS/blob/master/LICENSE)  
+Code &copy;2020 Shounak Das. Licensed under [the MIT License](https://github.com/dasShounak/ClassyCSS/blob/master/LICENSE)  
 
 
 ![Author](https://img.shields.io/badge/Author-Shounak%20Das-%2318e0b8?style=for-the-badge)  
