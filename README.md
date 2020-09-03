@@ -40,47 +40,14 @@ ClassyCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make m
 * Opera
 * Internet Explorer
 
-## Usage
-To use ClassyCSS as it is, link the [classy.css](https://github.com/dasShounak/ClassyCSS/blob/master/css/classy.css) in your html code.
-
-Here's a sample html file for a quick start:  
-```html
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Let's use ClassyCSS!</title>
-      <link rel="stylesheet" href="css/classy.css">
-    </head>
-    <body>
-     <div>
-       <h1 class="text is-medium is-sans-serif has-size5">
-         Hello World
-       </h1>
-       <p class="text is-normal has-size6">
-         My first website with <strong>ClassyCSS</strong>!
-       </p>
-     </div>
-    </body>
-  </html>
-```
-
-If you want to customize the variables, then
-* Create a screen.scss or screen.sass file.
-* Import [classy.scss](https://github.com/dasShounak/ClassyCSS/blob/master/classy.scss).  
-```scss
- @import "classy.scss" ;
-```  
-* Change the variables.
-```scss
- $red: rgb(255,0,0);
-```
+## Documentation
+Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
 
 _**Note:** The full documentation is currently under development. It will be completed soon._
 
 
 ## Contribute
+Before contributing, please go through the [Code of Conduct](https://github.com/dasShounak/ClassyCSS/blob/master/CODE_OF_CONDUCT.md).  
 For **Feature requests** and **Bugs**, click [here](https://github.com/dasShounak/ClassyCSS/issues?q=is%3Aissue+is%3Aopen).
 
 
