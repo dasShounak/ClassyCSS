@@ -28,28 +28,25 @@ $pink: 			rgb(255, 92, 228) 	!default;
 
 // Typography
 $family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif !default;
-$family-monospace: monospace !default;
+$family-monospace : monospace !default;
 
 $sizes: (
-	'size1'  : '3rem',
-	'size2'  : '2.75rem',
-	'size3'  : '2.5rem',
-	'size4'  : '2.25rem',
-	'size5'  : '2rem',
-	'size6'  : '1.75rem',
-	'size7'  : '1.5rem',
-	'size8'  : '1.25rem',
-	'size9'  : '1rem',
-	'size10' : '0.75rem'
+	'size1' : '3rem',
+	'size2' : '2.75rem',
+	'size3' : '2.5rem',
+	'size4' : '2.25rem',
+	'size5' : '2rem',
+	'size6' : '1.75rem',
+	'size7' : '1.5rem',
+	'size8' : '1.25rem',
+	'size9' : '1rem',
+	'size10': '0.75rem'
 ) !default;
 
-$weight-light: 	  300 !default;
-$weight-normal:   400 !default;
-$weight-medium:   500 !default;
+$weight-light   : 300 !default;
+$weight-normal  : 400 !default;
+$weight-medium  : 500 !default;
 $weight-semibold: 600 !default;
-$weight-bold: 	  700 !default;
+$weight-bold    : 700 !default;
 
 $text-align: ('centered':'center', 'left-aligned':'left', 'right-aligned':'right', 'justified':'justify');
-
-// Spacing
-$spacing: ('hairline':'2px', 'thin':'5px', 'medium':'10px', 'thick':'20px', 'thicker':'30px', 'thickest':'40px');
