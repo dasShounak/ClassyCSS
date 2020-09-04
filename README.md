@@ -62,8 +62,6 @@ _Source:- [caniuse](https://caniuse.com/)_
 
 Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
 
-_**Note:** The full documentation is currently under development. It will be completed soon._
-
 ## Contribute
 
 Before contributing, please go through the [Code of Conduct](https://github.com/dasShounak/ClassyCSS/blob/master/CODE_OF_CONDUCT.md).  
