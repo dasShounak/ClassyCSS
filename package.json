@@ -1,6 +1,6 @@
 {
   "name": "clsy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ClassyCSS is a CSS framework that helps to reduce the tedious job of writing thousands of lines of css.",
   "main": "classy.scss",
   "repository": {
