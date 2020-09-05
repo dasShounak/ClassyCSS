@@ -64,6 +64,7 @@ Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Google Chrome > 47
 - Safari (partial support for 3.1-6)
@@ -86,6 +87,8 @@ _Source:- [caniuse](https://caniuse.com/)_
 Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
 
 >>>>>>> 60f3fc96e29288d90c535e332e54c36ff9bcc9a1
+=======
+>>>>>>> develop
 ## Contribute
 
 Before contributing, please go through the [Code of Conduct](https://github.com/dasShounak/ClassyCSS/blob/master/CODE_OF_CONDUCT.md).  
