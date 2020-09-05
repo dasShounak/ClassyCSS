@@ -170,9 +170,6 @@ select {
 }
 
 .is-flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -185,9 +182,6 @@ select {
 }
 
 .is-inline-flex {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -745,8 +739,7 @@ select {
 }
 
 .text.is-sans-serif {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
 }
 .text.is-monospace {
   font-family: monospace;
@@ -791,3 +784,5 @@ select {
 .text.has-size10 {
   font-size: 0.75rem;
 }
+
+/*# sourceMappingURL=classy.css.map */
