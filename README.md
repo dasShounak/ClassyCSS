@@ -24,15 +24,15 @@ Do you feel writing thousands of lines of CSS for your website a tedious job? Cl
 
 ClassyCSS is constantly in development. Try it out now!
 
-#### NPM
+### NPM
 
 ```sh
  npm install clsy
 ```
 
-#### Download
+### CDN
 
-Click [here](https://github.com/dasShounak/ClassyCSS/archive/master.zip) to get the code.
+https://www.jsdelivr.com/package/npm/clsy
 
 ## CSS only
 
@@ -56,7 +56,7 @@ ClassyCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make m
 
 Full support for all others.
 
-_Source:- [caniuse](https://caniuse.com/)_
+_Source:- [Can I Use](https://caniuse.com/)_
 
 ## Documentation
 
@@ -66,6 +66,8 @@ Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
 
 Before contributing, please go through the [Code of Conduct](https://github.com/dasShounak/ClassyCSS/blob/master/CODE_OF_CONDUCT.md).  
 For **Feature requests** and **Bugs**, click [here](https://github.com/dasShounak/ClassyCSS/issues?q=is%3Aissue+is%3Aopen).
+
+Feel free to raise an issue or submit a pull request!
 
 ## License
 
