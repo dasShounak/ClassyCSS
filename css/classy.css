@@ -170,6 +170,9 @@ select {
 }
 
 .is-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -182,6 +185,9 @@ select {
 }
 
 .is-inline-flex {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -785,5 +791,3 @@ select {
 .text.has-size10 {
   font-size: 0.75rem;
 }
-
-/*# sourceMappingURL=classy.css.map */

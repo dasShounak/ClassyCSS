@@ -61,6 +61,27 @@ _Source:- [caniuse](https://caniuse.com/)_
 ## Documentation
 
 Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
+=======
+
+- Google Chrome > 47
+- Safari (partial support for 3.1-6)
+- Firefox (partial support for 2-27)
+- Internet Explorer > 11 (partial support for 10-11)
+- Edge > 13
+- Opera > 12.1 (partial support for 12.1, 33, 34)
+- Opera Mini (partial support for 5.0-8.0)
+- Android Browser > 4.3 (partial support for 2.1-4.3)
+- Chrome for Android (partial support 47)
+- IE Mobile (partial support for 10-11)
+- UC Browser for Android (partial support for 9.9)
+
+Full support for all others.
+
+_Source:- [caniuse](https://caniuse.com/)_
+
+## Documentation
+
+Browse the documentation [here](https://github.com/dasShounak/ClassyCSS/wiki).
 
 ## Contribute
 
