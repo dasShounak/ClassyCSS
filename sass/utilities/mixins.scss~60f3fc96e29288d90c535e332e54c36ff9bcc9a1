@@ -1,0 +1,33 @@
+// Clearfix
+@mixin clearfix {
+	&::after {
+		clear  : both;
+		content: " ";
+		display: table;
+	}
+}
+
+// Responsiveness
+@mixin tablet {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media screen and (min-width: 1024px) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: 1280px) {
+		@content;
+	}
+}
+
+@mixin widescreen {
+	@media screen and (min-width: 1344px) {
+		@content;
+	}
+}

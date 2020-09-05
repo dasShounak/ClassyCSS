@@ -1,0 +1,13 @@
+@import "../utilities/mixins";
+
+.clearfix {
+	@include clearfix;
+}
+
+.is-floated-left {
+	float: left;
+}
+
+.is-floated-right {
+	float: right;
+}
