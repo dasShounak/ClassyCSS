@@ -2,7 +2,7 @@
   "name": "clsy",
   "version": "1.0.0",
   "description": "ClassyCSS is a CSS framework that helps to reduce the tedious job of writing thousands of lines of css.",
-  "main": "css/classy.css",
+  "main": "classy.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dasShounak/ClassyCSS.git"
