@@ -30,7 +30,17 @@ ClassyCSS is constantly in development. Try it out now!
  npm install clsy
 ```
 
+<<<<<<< Updated upstream
 #### Download
+=======
+### Yarn
+
+```sh
+yarn add clsy
+```
+
+### CDN
+>>>>>>> Stashed changes
 
 Click [here](https://github.com/dasShounak/ClassyCSS/archive/master.zip) to get the code.
 
@@ -50,7 +60,7 @@ ClassyCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make m
 - Opera > 12.1 (partial support for 12.1, 33, 34)
 - Opera Mini (partial support for 5.0-8.0)
 - Android Browser > 4.3 (partial support for 2.1-4.3)
-- Chrome for Android (partial support 47)
+- Chrome for Android (partial support for 47)
 - IE Mobile (partial support for 10-11)
 - UC Browser for Android (partial support for 9.9)
 
