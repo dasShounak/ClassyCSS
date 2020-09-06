@@ -30,9 +30,6 @@ ClassyCSS is constantly in development. Try it out now!
  npm install clsy
 ```
 
-<<<<<<< Updated upstream
-#### Download
-=======
 ### Yarn
 
 ```sh
@@ -40,7 +37,6 @@ yarn add clsy
 ```
 
 ### CDN
->>>>>>> Stashed changes
 
 Click [here](https://github.com/dasShounak/ClassyCSS/archive/master.zip) to get the code.
 
