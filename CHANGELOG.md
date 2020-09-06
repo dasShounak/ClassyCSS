@@ -4,6 +4,14 @@ This document contains a record of all changes since version 1.0.0.
 
 ---
 
+## 1.2.0
+
+### Added
+
+- **Yarn** installation code block to [README.md](https://github.com/dasShounak/ClassyCSS/#installation).
+- [yarn.lock](https://github.com/dasShounak/ClassyCSS/blob/master/yarn.lock)
+- [package-lock.json](https://github.com/dasShounak/ClassyCSS/blob/master/package-lock.json)
+
 ## 1.1.1
 
 ### Added
