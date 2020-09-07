@@ -37,7 +37,6 @@ yarn add clsy
 ```
 
 ### CDN
-
 https://www.jsdelivr.com/package/npm/clsy
 
 ## CSS only
