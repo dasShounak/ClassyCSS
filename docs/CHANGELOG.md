@@ -10,6 +10,7 @@ This document contains a record of all changes since version 1.0.0.
 
 - [CONTRIBUTING.md](https://github.com/dasShounak/ClassyCSS/blob/master/docs/CONTRIBUTING.md)
 - `/docs` folder
+- Minified css: [`classy.min.css`](https://github.com/dasShounak/ClassyCSS/blob/master/css/classy.min.css)
 
 ### Moved
 
