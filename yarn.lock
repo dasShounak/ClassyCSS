@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-clsy@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/clsy/-/clsy-1.1.1.tgz#bd250d54416e931047c9be33cb4a2bb1fada33ad"
-  integrity sha512-aXS1XuBGT97MifDSKGsszXRCyY3XwNCHSP/LS028WjH+OUxAYRHLmjQcRAqYsTVVV2Ul6kCRelq74vAZsQj4jw==
+clsy@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/clsy/-/clsy-1.2.0.tgz#4fbe7561d81de0fb2ecb06047c29c69b880ccc3d"
+  integrity sha512-ZvuAfFmGO9czNclzJAv9afJdy0w7nTe+SjQmOzovK6fxrOF45sdRHSx4VLOn75XJrQE4ZM3VQjc/y0M4EGWYfg==
