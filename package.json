@@ -1,7 +1,7 @@
 {
   "name": "clsy",
   "version": "1.2.0",
-  "description": "ClassyCSS is a free, open source CSS framework that helps to reduce the tedious job of writing thousands of lines of css.",
+  "description": "A free, open source CSS framework.",
   "main": "classy.scss",
   "repository": {
     "type": "git",
@@ -18,6 +18,14 @@
     "name": "Shounak Das",
     "email": "snkds321@gmail.com"
   },
+  "scripts": {
+    "compile": "node-sass --output-style expanded --source-map true classy.scss css/classy.css",
+    "prefix": "postcss --use autoprefixer -b 'cover 99.5%' css/classy.css -o css/classy.css",
+    "compress": "node-sass css/classy.css css/classy.min.css --output-style compressed",
+    "clean": "rimraf css",
+    "build": "npm run clean && npm-run-all compile prefix && npm run compress",
+    "start": "npm run compile -- --watch"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dasShounak/ClassyCSS/issues"
@@ -27,8 +35,14 @@
     "css",
     "sass",
     "classy.scss",
-    "CODE_OF_CONDUCT.md",
-    "LICENSE",
-    "README.md"
-  ]
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.2",
+    "rimraf": "^3.0.2"
+  }
 }
