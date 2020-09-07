@@ -4,6 +4,21 @@ This document contains a record of all changes since version 1.0.0.
 
 ---
 
+## 1.3.0
+
+### Added
+
+- [CONTRIBUTING.md](https://github.com/dasShounak/ClassyCSS/blob/master/docs/CONTRIBUTING.md)
+- `/docs` folder
+
+### Moved
+
+- README, LICENSE, CODE_OF_CONDUCT, CHANGELOG **to** `/docs` folder
+
+### Modified
+
+- [package.json](https://github.com/dasShounak/ClassyCSS/blob/master/package-lock.json): Added `"devDependencies"`
+
 ## 1.2.0
 
 ### Added
