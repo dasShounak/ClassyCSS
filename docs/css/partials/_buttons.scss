@@ -1,0 +1,64 @@
+@import 'variables';
+
+.button {
+  padding: 12px 22px;
+  border: 2px solid #000;
+  text-align: center;
+
+  &.is-rounded {
+    border-radius: 4px;
+  }
+
+  &.is-circular {
+    border-radius: 1000px;
+  }
+
+  &.is-blue {
+    background-color: $blue;
+    color: #fff;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: lighten($blue, 5%);
+    }
+
+    &:active {
+      background-color: lighten($blue, 10%);
+    }
+  }
+
+  &.is-gray {
+    background-color: darken($gray, 5%);
+    color: #666;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: darken($gray, 10%);
+    }
+
+    &:active {
+      background-color: darken($gray, 15%);
+    }
+  }
+
+  &.is-black {
+    background-color: $black;
+    color: #ddd;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: lighten($black, 10%);
+    }
+
+    &:active {
+      background-color: lighten($black, 15%);
+    }
+  }
+
+  &.is-transparent {
+    background-color: rgba(0,0,0,0);
+  }
+}

@@ -1,0 +1,171 @@
+/* Intro */
+.intro {
+	grid-area: intro;
+	padding: 20px 100px;
+	font-size: 140%;
+	line-height: 40px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-width: 0;
+}
+
+/*intro-image*/
+.intro-image {
+	min-width: 0;
+	margin-right: 90px;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*intro-text*/
+.intro-text {
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	p {
+		min-width: 0;
+		text-align: center;
+
+		&::selection {
+			background-color: rgba(0,0,0,0);
+			color: $blue;
+		}
+	}
+
+	span {
+		font-family: $header-font;
+		font-size: 115%;
+
+		&::selection {
+			@extend p;
+		}
+	}
+
+	pre {
+		display: flex;
+		background-color: $black;
+		color: #fff;
+		font-size: 55%;
+		padding: 6px 20px;
+		border-radius: 4px;
+
+		code::selection {
+			background-color: $blue;
+			color: #fff;
+		}
+	}
+
+	.classy {
+		color: $blue;
+
+		&::selection {
+			color: $black;
+		}
+	}
+
+	.css {
+		color: $black;
+	}
+
+	.dollar {
+		font-family: $mono;
+		font-size: 130%;
+		color: $blue;
+		user-select: none;
+	}
+
+	.buttons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-size: 70%;
+
+		.button {
+			margin: 10px;
+
+			& > span {
+				font-family: $content-font;
+				font-size: 90%;
+				font-weight: lighter;
+				color: lighten($black, 35%);
+			}
+		}
+	}
+}
+
+@include desktop {
+	.intro-text {
+		padding: 0 100px;
+	}
+}
+
+@include tablet {
+	.intro {
+		font-size: 115%;
+		padding: 20px 60px;
+
+		.intro-image {
+			margin-right: 20px;
+		}
+
+		.buttons {
+			max-width: 100%;
+			flex-direction: column;
+			margin-top: 22px;
+			font-size: 100%;
+
+			.button {
+				margin-bottom: 16px;
+			}
+		}
+	}
+}
+
+@include mobile {
+	.intro {
+		padding: 15px 30px;
+		font-size: 100%;
+		text-align: center;
+		line-height: 40px;
+
+		pre {
+			padding: 0 10px;
+		}
+
+		.intro-image {
+			margin-right: 0;
+			margin-left: -30px;
+		}
+
+		.buttons {
+			font-size: 80%;
+
+			.button {
+				padding: 4px 12px;
+			}
+		}
+
+		.intro-text {
+			padding: 0 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.intro-text {
+		padding: 0 20px;
+	}
+}
+
+@media screen and (min-width: 1344px) {
+	.intro-text {
+		padding: 0 250px;
+	}
+}

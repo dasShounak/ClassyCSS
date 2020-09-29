@@ -1,0 +1,83 @@
+/* Features */
+.features {
+	grid-area: features;
+	margin-top: 100px;
+	padding: 0 60px;
+	text-align: center;
+	font-size: 24px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+
+	.box {
+		padding: 30px;
+		border-radius: 10px;
+		user-select: none;
+		transition: all 0.3s ease-in-out;
+
+		i {
+			vertical-align: baseline;
+			color: $blue;
+		}
+
+		.title {
+			transition: all 0.3s ease-in-out;
+		}
+
+		.sub-title {
+			font-family: "Baloo 2";
+			font-size: 80%;
+			padding: 0;
+
+			p {
+				margin-bottom: 0;
+			}
+
+			strong {
+				font-family: "Baloo";
+			}
+		}
+
+		.fa-css3 {
+			color: #fff;
+		}
+
+		.fa-cubes {
+			transform: scaleX(-1);
+		}
+
+		.fa-cube {
+			@extend .fa-cubes;
+		}
+
+		.fa-arrow-right {
+			font-size: 16px;
+			vertical-align: 3px;
+		}
+
+		&:hover {
+			background-color: $gray;
+			cursor: pointer;
+
+			.title {
+				color: $blue;
+			}
+		}
+	}
+}
+
+@include tablet {
+	.features {
+		font-size: 22px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.features {
+		font-size: 20px;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+}

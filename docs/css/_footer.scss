@@ -1,0 +1,24 @@
+/* Footer */
+footer {
+	grid-area: footer;
+	text-align: center;
+	background-color: #eee;
+
+	p {
+		color: #777;
+	}
+
+	a {
+		font-weight: 300;
+		color: #333;
+		transition: color 0.2s ease-in-out;
+
+		&:hover {
+			color: lighten(#333, 20%);
+		}
+
+		&:active {
+			color: #333;
+		}
+	}
+}

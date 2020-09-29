@@ -1,0 +1,22 @@
+// Viewport sizes
+$tablet-width: 784px;
+$mobile-width: 420px;
+
+// Media queries
+@mixin tablet {
+	@media screen and (max-width: $tablet-width) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media screen and (max-width: $mobile-width) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: $tablet-width + 1px) {
+		@content;
+	}
+}

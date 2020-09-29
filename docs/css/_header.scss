@@ -1,0 +1,151 @@
+/* Header */
+header {
+	grid-area: header;
+	border-bottom: 1px solid #eee;
+
+	img {
+		width: 180px;
+		padding: 20px;
+	}
+
+	nav {
+		float: right;
+		margin-top: 8px;
+
+		.menu {
+			padding: 20px;
+
+			> a {
+				font-family: $header-font, sans-serif;
+				color: $black;
+				padding: 0px 8px;
+				border-radius: 10000px;
+				transition: all 0.2s ease-in-out;
+
+				&:hover {
+					color: $blue;
+					background-color: $gray;
+				}
+
+				&:active {
+					background-color: darken($gray, 5%);
+				}
+			}
+		}
+	}
+}
+
+.mobile-menu {
+	display: none;
+}
+
+label,
+#toggle {
+	display: none;
+}
+
+/* Mobile menu */
+@include tablet {
+	header {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+
+		.menu {
+			display: none;
+		}
+
+		label {
+			display: block;
+			cursor: pointer;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			padding: 5px;
+			border-radius: 5px;
+
+			#close {
+				background-color: #fff;
+				z-index: 100;
+				padding: 5px;
+				border-radius: 5px;
+
+				&:hover {
+					background-color: $gray;
+				}
+
+				&:active {
+					background-color: darken($gray, 5%);
+				}
+			}
+
+			&:hover {
+				background-color: $gray;
+			}
+
+			&:active {
+				background-color: darken($gray, 5%);
+			}
+		}
+
+		.mobile-menu {
+			display: none;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-columns: auto;
+			justify-items: stretch;
+			margin-top: -7px;
+			text-align: center;
+			border: none;
+			box-shadow: 0 46px 80px rgba(0,0,0,0.05);
+
+			p	{
+				margin: 0;
+				padding: 20px 0;
+
+				&:hover {
+					background-color: $gray;
+				}
+
+				&:active {
+					background-color: darken($gray, 5%);
+				}
+			}
+
+			a {
+				font-family: $header-font;
+				color: $black;
+
+				&:hover {
+					background-color: rgba(0,0,0,0);
+				}
+			}
+
+			label {
+				top: 16px;
+				right: 18px;
+
+				&:hover {
+					background-color: #fff;
+				}
+			}
+		}
+
+		#toggle:checked + .mobile-menu {
+			display: grid;
+		}
+
+		#logo {
+			width: 0;
+		}
+	}
+}
+
+@include mobile {
+	header .mobile-menu {
+		text-align: left;
+
+		a {
+			padding-left: 40px;
+		}
+	}
+}

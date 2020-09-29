@@ -1,0 +1,435 @@
+.button {
+  padding: 12px 22px;
+  border: 2px solid #000;
+  text-align: center;
+}
+.button.is-rounded {
+  border-radius: 4px;
+}
+.button.is-circular {
+  border-radius: 1000px;
+}
+.button.is-blue {
+  background-color: #31A6F0;
+  color: #fff;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.button.is-blue:hover {
+  background-color: #49b0f2;
+}
+.button.is-blue:active {
+  background-color: #61bbf3;
+}
+.button.is-gray {
+  background-color: #e3e7e9;
+  color: #666;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.button.is-gray:hover {
+  background-color: #d4dbde;
+}
+.button.is-gray:active {
+  background-color: #c6ced2;
+}
+.button.is-black {
+  background-color: #323232;
+  color: #ddd;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.button.is-black:hover {
+  background-color: #4c4c4c;
+}
+.button.is-black:active {
+  background-color: #585858;
+}
+.button.is-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  font-family: "Montserrat", sans-serif, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Baloo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1em;
+  grid-template-areas: "header header header header" "intro intro intro intro" "features features features features" "footer footer footer footer";
+}
+
+/* Header */
+header {
+  grid-area: header;
+  border-bottom: 1px solid #eee;
+}
+header img {
+  width: 180px;
+  padding: 20px;
+}
+header nav {
+  float: right;
+  margin-top: 8px;
+}
+header nav .menu {
+  padding: 20px;
+}
+header nav .menu > a {
+  font-family: "Baloo", sans-serif, sans-serif;
+  color: #323232;
+  padding: 0px 8px;
+  border-radius: 10000px;
+  transition: all 0.2s ease-in-out;
+}
+header nav .menu > a:hover {
+  color: #31A6F0;
+  background-color: #f1f3f4;
+}
+header nav .menu > a:active {
+  background-color: #e3e7e9;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+label,
+#toggle {
+  display: none;
+}
+
+/* Mobile menu */
+@media screen and (max-width: 784px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  header .menu {
+    display: none;
+  }
+  header label {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  header label #close {
+    background-color: #fff;
+    z-index: 100;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  header label #close:hover {
+    background-color: #f1f3f4;
+  }
+  header label #close:active {
+    background-color: #e3e7e9;
+  }
+  header label:hover {
+    background-color: #f1f3f4;
+  }
+  header label:active {
+    background-color: #e3e7e9;
+  }
+  header .mobile-menu {
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    justify-items: stretch;
+    margin-top: -7px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 46px 80px rgba(0, 0, 0, 0.05);
+  }
+  header .mobile-menu p, header .mobile-menu .intro-text span::selection, .intro-text header .mobile-menu span::selection {
+    margin: 0;
+    padding: 20px 0;
+  }
+  header .mobile-menu p:hover, header .mobile-menu .intro-text span:hover::selection, .intro-text header .mobile-menu span:hover::selection {
+    background-color: #f1f3f4;
+  }
+  header .mobile-menu p:active, header .mobile-menu .intro-text span:active::selection, .intro-text header .mobile-menu span:active::selection {
+    background-color: #e3e7e9;
+  }
+  header .mobile-menu a {
+    font-family: "Baloo", sans-serif;
+    color: #323232;
+  }
+  header .mobile-menu a:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  header .mobile-menu label {
+    top: 16px;
+    right: 18px;
+  }
+  header .mobile-menu label:hover {
+    background-color: #fff;
+  }
+  header #toggle:checked + .mobile-menu {
+    display: grid;
+  }
+  header #logo {
+    width: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  header .mobile-menu {
+    text-align: left;
+  }
+  header .mobile-menu a {
+    padding-left: 40px;
+  }
+}
+/* Intro */
+.intro {
+  grid-area: intro;
+  padding: 20px 100px;
+  font-size: 140%;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 0;
+}
+
+/*intro-image*/
+.intro-image {
+  min-width: 0;
+  margin-right: 90px;
+}
+.intro-image img {
+  width: 100%;
+  height: auto;
+}
+
+/*intro-text*/
+.intro-text {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-text p, .intro-text span::selection {
+  min-width: 0;
+  text-align: center;
+}
+.intro-text p::selection, .intro-text span::selection {
+  background-color: rgba(0, 0, 0, 0);
+  color: #31A6F0;
+}
+.intro-text span {
+  font-family: "Baloo", sans-serif;
+  font-size: 115%;
+}
+.intro-text pre {
+  display: flex;
+  background-color: #323232;
+  color: #fff;
+  font-size: 55%;
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+.intro-text pre code::selection {
+  background-color: #31A6F0;
+  color: #fff;
+}
+.intro-text .classy {
+  color: #31A6F0;
+}
+.intro-text .classy::selection {
+  color: #323232;
+}
+.intro-text .css {
+  color: #323232;
+}
+.intro-text .dollar {
+  font-family: "Courier Prime", monospace;
+  font-size: 130%;
+  color: #31A6F0;
+  user-select: none;
+}
+.intro-text .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 70%;
+}
+.intro-text .buttons .button {
+  margin: 10px;
+}
+.intro-text .buttons .button > span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 90%;
+  font-weight: lighter;
+  color: #8b8b8b;
+}
+
+@media screen and (min-width: 785px) {
+  .intro-text {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .intro {
+    font-size: 115%;
+    padding: 20px 60px;
+  }
+  .intro .intro-image {
+    margin-right: 20px;
+  }
+  .intro .buttons {
+    max-width: 100%;
+    flex-direction: column;
+    margin-top: 22px;
+    font-size: 100%;
+  }
+  .intro .buttons .button {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .intro {
+    padding: 15px 30px;
+    font-size: 100%;
+    text-align: center;
+    line-height: 40px;
+  }
+  .intro pre {
+    padding: 0 10px;
+  }
+  .intro .intro-image {
+    margin-right: 0;
+    margin-left: -30px;
+  }
+  .intro .buttons {
+    font-size: 80%;
+  }
+  .intro .buttons .button {
+    padding: 4px 12px;
+  }
+  .intro .intro-text {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .intro-text {
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .intro-text {
+    padding: 0 250px;
+  }
+}
+/* Features */
+.features {
+  grid-area: features;
+  margin-top: 100px;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.features .box {
+  padding: 30px;
+  border-radius: 10px;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+}
+.features .box i {
+  vertical-align: baseline;
+  color: #31A6F0;
+}
+.features .box .title {
+  transition: all 0.3s ease-in-out;
+}
+.features .box .sub-title {
+  font-family: "Baloo 2";
+  font-size: 80%;
+  padding: 0;
+}
+.features .box .sub-title p, .features .box .sub-title .intro-text span::selection, .intro-text .features .box .sub-title span::selection {
+  margin-bottom: 0;
+}
+.features .box .sub-title strong {
+  font-family: "Baloo";
+}
+.features .box .fa-css3 {
+  color: #fff;
+}
+.features .box .fa-cubes, .features .box .fa-cube {
+  transform: scaleX(-1);
+}
+.features .box .fa-arrow-right {
+  font-size: 16px;
+  vertical-align: 3px;
+}
+.features .box:hover {
+  background-color: #f1f3f4;
+  cursor: pointer;
+}
+.features .box:hover .title {
+  color: #31A6F0;
+}
+
+@media screen and (max-width: 784px) {
+  .features {
+    font-size: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+@media screen and (max-width: 560px) {
+  .features {
+    font-size: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+/* Footer */
+footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: #eee;
+}
+footer p, footer .intro-text span::selection, .intro-text footer span::selection {
+  color: #777;
+}
+footer a {
+  font-weight: 300;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+footer a:hover {
+  color: #666666;
+}
+footer a:active {
+  color: #333;
+}
+
+/*# sourceMappingURL=screen.css.map */

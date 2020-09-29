@@ -1,0 +1,40 @@
+@import 'partials/variables';
+@import 'partials/buttons';
+@import 'partials/mediaq';
+
+html {
+	font-family: $content-font, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@extend body;
+	font-family: $header-font;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 1em;
+	grid-template-areas:
+		"header header header header"
+		"intro intro intro intro"
+		"features features features features"
+		"footer footer footer footer";
+}
+
+@import 'header';
+@import 'intro';
+@import 'features';
+@import 'footer';
