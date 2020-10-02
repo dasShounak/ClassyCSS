@@ -31,10 +31,12 @@ a {
 		"header header header header"
 		"intro intro intro intro"
 		"features features features features"
+		"links links links links"
 		"footer footer footer footer";
 }
 
 @import 'header';
 @import 'intro';
 @import 'features';
+@import 'links';
 @import 'footer';

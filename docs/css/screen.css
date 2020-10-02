@@ -73,7 +73,7 @@ a {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-gap: 1em;
-  grid-template-areas: "header header header header" "intro intro intro intro" "features features features features" "footer footer footer footer";
+  grid-template-areas: "header header header header" "intro intro intro intro" "features features features features" "links links links links" "footer footer footer footer";
 }
 
 /* Header */
@@ -161,7 +161,6 @@ label,
     margin-top: -7px;
     text-align: center;
     border: none;
-    box-shadow: 0 46px 80px rgba(0, 0, 0, 0.05);
   }
   header .mobile-menu p, header .mobile-menu .intro-text span::selection, .intro-text header .mobile-menu span::selection {
     margin: 0;
@@ -194,7 +193,7 @@ label,
     width: 0;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   header .mobile-menu {
     text-align: left;
   }
@@ -310,7 +309,7 @@ label,
     margin-bottom: 16px;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .intro {
     padding: 15px 30px;
     font-size: 100%;
@@ -334,14 +333,14 @@ label,
     padding: 0 10px;
   }
 }
+@media screen and (min-width: 1281px) {
+  .intro-text {
+    padding: 0 250px;
+  }
+}
 @media screen and (max-width: 980px) {
   .intro-text {
     padding: 0 20px;
-  }
-}
-@media screen and (min-width: 1344px) {
-  .intro-text {
-    padding: 0 250px;
   }
 }
 /* Features */
@@ -354,6 +353,11 @@ label,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  grid-gap: 20px;
+}
+.features a {
+  text-decoration: none;
+  color: #323232;
 }
 .features .box {
   padding: 30px;
@@ -391,7 +395,6 @@ label,
 }
 .features .box:hover {
   background-color: #f1f3f4;
-  cursor: pointer;
 }
 .features .box:hover .title {
   color: #31A6F0;
@@ -411,6 +414,30 @@ label,
     grid-template-rows: auto;
   }
 }
+/*links*/
+.links {
+  background-color: #F7F7F7;
+  grid-area: links;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links div {
+  min-width: 0;
+}
+.links img {
+  width: 200px;
+  height: auto;
+}
+.links .fa-sass {
+  color: #C76395;
+}
+.links .fa-github {
+  color: #1e1e1e;
+}
+.links .fa-npm {
+  color: #C53635;
+}
+
 /* Footer */
 footer {
   grid-area: footer;
